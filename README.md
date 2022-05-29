@@ -28,6 +28,8 @@
 </p>   
 ## Project Demo
 
+![GIF demo](http://g.recordit.co/rTdat6nnxv.gif)
+
 ## About The Project
 
 - This Project I made for learning Advanced Docker and kubernetes, ECS and EKS in depth through Project
