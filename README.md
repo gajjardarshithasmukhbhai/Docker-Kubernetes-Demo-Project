@@ -25,7 +25,8 @@
       alt="API stability" />
     <br />
     </p>
-</p>   
+</p>
+
 ## Project Demo
 
 ![GIF demo](http://g.recordit.co/rTdat6nnxv.gif)
