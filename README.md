@@ -5,6 +5,7 @@
   <img src="https://raw.githubusercontent.com/L0garithmic/FastColabCopy/main/img/logo.png" alt="Logo" width="140" height="110">
   <br>FiCa Todo App
 </h1>
+
   <p align="center"> 
     <img src="https://img.shields.io/badge/Made%20with-ReactJs-brightgreen"
       alt="API stability" />
