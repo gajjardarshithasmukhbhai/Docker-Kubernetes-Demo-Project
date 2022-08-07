@@ -45,19 +45,3 @@
 > step:3 If you Want to use command for the Node JS so use this command for **docker run -v /home/darshitgajjar/DarshitGajjar_Docker_Practice/MERN_Docker_kubernetes/back_end:/app -p 3200:3500 --name goal_backend -v /app/node_modules react_back_end**
 
 > **Note:** Before starting the Node Project So you need to make sure your Database either MongoDb or My-SQL are used or NOT
-
-## Usage
-
-```sh
-usage: fast-copy.py [-h HELP] source destination [-d DELETE] [-s SYNC] [-r REPLACE]
-
-optional arguments:
-  -h --help            show this help message and exit
-  source                the drive you are copying from
-  destination           the drive you are copying to
-  -d --delete           delete the source files after copy
-  -s --sync             delete files in destination if not found in source (do not use, if using with rsync)
-  -r --replace          replace files if they exist
-  -t --thread           set the amount of parallel threads used
-  -l --size-limit       set max size of files copied (supports gb, mb, kb) eg 1.5gb
-```

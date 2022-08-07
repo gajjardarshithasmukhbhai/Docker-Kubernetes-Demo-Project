@@ -1,0 +1,38 @@
+version: "3.8"
+services:
+  backend:
+    image: "react_back_end"
+    # environment:
+    #   - MONGO_USER_NAME=****
+    #   - MONGO_USER_PASS=*****
+    # creating the Docker Image
+    build: ./backend
+
+    # context is basically used for where you're docker file is created
+    # dockerfile special name is used if your dockerfile name is not ->DockerFile instead of other so that time you have specified
+
+    # build:
+    #   context: ./backend
+    #   dockerfile: Dockerfile-dev
+
+    volumes:
+      - /home/darshitgajjar/Darshit_Code/Darshit_Docker_Todo_App/react-Node-Js-Docker-Kubernetes-Demo-Project/back_end:/app
+      - /app/node_modules
+    # env_file:
+    #   - ./env/.env.development
+
+    ports:
+      - "3200:3500"
+  frontend:
+    image: "react-front-end-app"
+    build: ./front_end
+
+    volumes:
+      - /home/darshitgajjar/Darshit_Code/Darshit_Docker_Todo_App/react-Node-Js-Docker-Kubernetes-Demo-Project/front_end:/app
+      - /app/node_modules
+
+    ports:
+      - "3000:3000"
+# volumes:
+#   data:
+# If you give same volumes in different container so thwey will be shares

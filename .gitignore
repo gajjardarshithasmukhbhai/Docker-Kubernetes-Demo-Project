@@ -1,0 +1,6 @@
+*.pdf
+*.Identifier
+node_modules
+.env
+.png
+.jpg
