@@ -3,7 +3,7 @@
 <h1>
 <p align="center">
   <img src="https://raw.githubusercontent.com/L0garithmic/FastColabCopy/main/img/logo.png" alt="Logo" width="140" height="110">
-  <br>FiCa Todo App
+  <br>FiCa Todo App(Under Development with K8 clustering)
 </h1>
 
   <p align="center"> 
